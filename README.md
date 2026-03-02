@@ -1,2 +1,2 @@
 # mybimm143
-My classwork for Bimm143 class
+My classwork for [BIMM143] (https://bioboot.github.io/bimm143_W26/) at UC San Diego.
