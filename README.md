@@ -15,18 +15,19 @@ My classwork for [BIMM143] (https://bioboot.github.io/bimm143_W26/) at UC San Di
 
 -  Class 08 [Breast Cancer Mini Project](class08.pdf)
 
--  Class 09 [](class09.md)
+-  Class 09 [Halloween Candy](class09.md)
 
--  Class 10 [](class10.md)
+-  Class 10 [Bioinformatics](class10.md)
 
--  Class 11 [](Rebeccaclass11.pdf)
+-  Class 11 [Alphafold](Rebeccaclass11.pdf)
 
--  Class 12 [](class12.pdf)
+-  Class 12 [RNAseq Galaxy](class12.pdf)
 
--  Class 13 [](class13.pdf)
+-  Class 13 [DEseq](class13.pdf)
 
--  Class 14 [](class14.pdf)
+-  Class 14 [Differential Expression Analysis](class14.pdf)
 
--  Class 17 [](class17.md)
+-  Class 17 [Unixbasic](class17.pdf)
 
--  Class 18 [](class18.md) 
+-  Class 18 [Pertussis Mini Project](class18.md)
+-  
