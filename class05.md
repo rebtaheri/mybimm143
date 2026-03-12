@@ -1,10 +1,17 @@
 # class 5: data Viz with ggplot
 Rebecca ( Pid: A17228385)
 
+<<<<<<< HEAD
 - [Background](#background)
 - [Gene expression plot](#gene-expression-plot)
 - [Going Further](#going-further)
 - [Custom plots](#custom-plots)
+=======
+-   [Background](#background)
+-   [Gene expression plot](#gene-expression-plot)
+-   [Going Further](#going-further)
+-   [Custom plots](#custom-plots)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 ## Background
 
@@ -30,7 +37,11 @@ head(cars)
 plot(cars)
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-2-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 First I need to install the package with the command
 `install.package()`.
@@ -49,6 +60,7 @@ library(ggplot2)
 ggplot(cars)
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-4-1.png)
 
 Every ggplot needs at least 3 things:
@@ -56,6 +68,15 @@ Every ggplot needs at least 3 things:
 - The **data**, the stuff you want plotted
 - The **aes**thitics, how the data map to the plot
 - The**geom**etry, the type of plot
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+
+Every ggplot needs at least 3 things:
+
+-   The **data**, the stuff you want plotted
+-   The **aes**thitics, how the data map to the plot
+-   The**geom**etry, the type of plot
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 Add a line to better show the relationship between speed and dist
 
@@ -78,7 +99,11 @@ p + theme_bw()
 
     `geom_smooth()` using formula = 'y ~ x'
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-6-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 ## Gene expression plot
 
@@ -106,7 +131,11 @@ ggplot(genes) +
   geom_point()
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-8-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 ``` r
 table(genes$State)
@@ -125,7 +154,11 @@ ggplot(genes) +
   geom_point()
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-10-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 Version 3 plot, let’s modify the default colors to something we like
 
@@ -140,7 +173,11 @@ ggplot(genes) +
   theme_bw()
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-11-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 ## Going Further
 
@@ -167,7 +204,11 @@ ggplot(gapminder) +
   geom_point(alpha=0.3) 
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-14-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-14-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 Let’s “facet ( i.e make a separate plot) by continent rather than the
 big hot mess above.
@@ -179,7 +220,11 @@ ggplot(gapminder) +
   facet_wrap(~continent)
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-15-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-15-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
 
 ## Custom plots
 
@@ -258,4 +303,8 @@ ggplot(gapminder_c) + aes(gdpPercap, lifeExp, col=continent) +
   facet_wrap(~year)
 ```
 
+<<<<<<< HEAD
 ![](class05_files/figure-commonmark/unnamed-chunk-22-1.png)
+=======
+![](class05.markdown_strict_files/figure-markdown_strict/unnamed-chunk-22-1.png)
+>>>>>>> 03a3bd88038a0a2a4d09d43b820ee0cd5725a374
