@@ -19,16 +19,14 @@ My classwork for [BIMM143] (https://bioboot.github.io/bimm143_W26/) at UC San Di
 
 -  Class 10 [](class10.md)
 
--  Class 11
+-  Class 11 [](Rebeccaclass11.pdf)
 
--  Class 12
+-  Class 12 [](class12.pdf)
 
--  Class 13
+-  Class 13 [](class13.pdf)
 
--  Class 14
+-  Class 14 [](class14.pdf)
 
--  Class 15
+-  Class 17 [](class17.md)
 
--  Class 16
-
--  Class 17
+-  Class 18 [](class18.md) 
