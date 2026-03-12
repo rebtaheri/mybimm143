@@ -1,7 +1,7 @@
 ---
 title: "Class 6: functions"
 author: "Rebecca ( Pid 17228385)"
-format: pdf
+format: md
 ---
 
 ## Background
